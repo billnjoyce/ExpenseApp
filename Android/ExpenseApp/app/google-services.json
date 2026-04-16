@@ -1,0 +1,45 @@
+{
+  "__comment": "⚠️  이 파일은 플레이스홀더입니다. Firebase Console에서 실제 파일을 다운로드하여 교체하세요.",
+  "__instructions": [
+    "1. Firebase Console (console.firebase.google.com) 접속",
+    "2. 프로젝트 선택 또는 생성",
+    "3. 프로젝트 설정 → Android 앱 추가",
+    "4. 패키지명: com.example.expenseapp 입력",
+    "5. google-services.json 다운로드",
+    "6. 이 파일을 다운로드한 파일로 교체",
+    "7. Firebase Console에서 Authentication → Google 로그인 활성화",
+    "8. Firestore Database → 데이터베이스 만들기 (프로덕션 모드 권장)"
+  ],
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id":     "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:YOUR_PROJECT_NUMBER:android:YOUR_APP_ID",
+        "android_client_info": {
+          "package_name": "com.example.expenseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
